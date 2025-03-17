@@ -1,0 +1,23 @@
+export const host = "http://localhost:7000";
+export const registerRoute = `${host}/api/student/register`;
+export const loginRoute = `${host}/api/student/login`;
+export const sregisterRoute = `${host}/api/seller/register`;
+export const sloginRoute = `${host}/api/seller/login`;
+export const addproductRoute = `${host}/api/seller/add-product`;
+export const updateproductRoute = (id) => `${host}/api/seller/update-product/${id}`;
+export const getProductRoute = (id) => `${host}/api/seller/get-product/${id}`;
+export const addcouponRoute = `${host}/api/seller/add-coupon`;
+export const getCouponsRoute = (username) => `${host}/api/seller/get-coupons?username=${username}`;
+export const getcurrentordersRoute = (username) => `${host}/api/seller/current-orders?username=${username}`;
+export const getcompletedordersRoute = (username) => `${host}/api/seller/completed-orders?username=${username}`;
+export const getsellerscats=`${host}/api/seller/getsellerscats`;
+export const getSellerProducts = (username)=>`${host}/api/seller/getsellerproducts?username=${username}`;
+export const getProductDetails =(productId)=>`${host}/api/seller/getProductDetails?productId=${productId}`;
+export const addToCartAPI =`${host}/api/seller/addToCartAPI`;
+export const trackOrdersRoute =(username)=>`${host}/api/seller/trackorders?username=${username}`;
+export const getAvailableCouponsRoute =(username)=>`${host}/api/seller/getAvailableCoupons?username=${username}`;
+export const getPreviousOrders =(username)=>`${host}/api/seller/getPreviousOrders?username=${username}`;
+export const placeOrderRoute =`${host}/api/seller/placeorder`;
+export const updateOrderStatusRoute = (orderId) => `${host}/api/order/update-order-status/${orderId}`;
+export const getcartdetailsRoute =(username)=>`http://localhost:7000/api/seller/cartdetails?username=${username}`;
+

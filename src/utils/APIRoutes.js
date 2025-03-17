@@ -1,4 +1,4 @@
-export const host = "https://campuscart-backend-1.onrender.com";
+export const host = "https://campuscart-backend-332l.onrender.com";
 export const registerRoute = `${host}/api/student/register`;
 export const loginRoute = `${host}/api/student/login`;
 export const sregisterRoute = `${host}/api/seller/register`;

@@ -1,4 +1,4 @@
-export const host = "http://localhost:7000";
+export const host = "https://campuscart-backend-vp2r.onrender.com";
 export const registerRoute = `${host}/api/student/register`;
 export const loginRoute = `${host}/api/student/login`;
 export const sregisterRoute = `${host}/api/seller/register`;
